@@ -4,7 +4,7 @@ language: node_js
 node_js:
   - '0.10'
 before_install:
-  - export PHANTOMJS_BIN=/usr/local/bin/phantomjs
+  - export PHANTOMJS_BIN=/usr/local/phantomjs/phantomjs
   - which phantomjs
 install:
   # Disable the spinner, it looks bad on Travis
